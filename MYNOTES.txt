@@ -1,0 +1,84 @@
+Data to Collect
+
+GIS Coords
+	- Lat
+	- Lon
+
+Ovitrap Serial Number/Unique Identifier
+	- Fixed
+
+Number of Eggs (Updated Weekly)
+	- from which the density is worked out
+	- 
+
+
+
+Select all the Information within a certain date Sunday to Saturday from the DB???
+	- Display all the info
+	- Show which ones that weren't entered separately (Also on those not reported)
+	-
+
+
+The Serial Number for the Ovitrap is as Follows
+
+
+Parishes 11 to 24
+St. Catherine: 11
+Kingston: 12
+St. Andrew: 13
+St. Thomas: 14
+Portland: 15
+St. Mary: 16
+St. Ann: 17
+Trelawny: 18
+St. James: 19
+Hanover: 20
+Westmoreland: 21
+St. Elizabeth: 22
+Manchester: 23
+Clarendon: 24
+
+Communities 000
+Westmeade - 001
+Stony Hill - 002
+Mona - 003
+
+
+
+Ovitrap Number - 000 
+trap number for the community up to 999
+
+
+
+Ovitrap Location:
+Inside: 1
+Outside: 0
+
+
+
+Primary Table
+1. serial_number		
+2. location_lat			
+3. location_lon	
+4. location_inside_outside		
+5. established_date	
+6. person_responsible_last_name		
+7. person_responsible_first_name		
+8. area_served
+
+Child Table
+1. entry_number 	
+2. serial_number
+3. number_eggs 	
+4. egg_density 	
+5. entry_date 	
+6. entry_time 	
+7. entered_by_first_name 	
+8. entered_by_last_name 	
+9. reading_actual_estimate
+
+
+
+
+
+
